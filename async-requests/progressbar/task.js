@@ -2,7 +2,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
 	event.preventDefault();
 
 	let formData = new FormData();
-	let fileInput = document.getElementById('fileInput');
+	let fileInput = document.getElementById('file');
 	formData.append('file', fileInput.files[0]);
 
 	let xhr = new XMLHttpRequest();
