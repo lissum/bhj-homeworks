@@ -1,5 +1,3 @@
-/ Функция для получения данных опроса
-
 async function loadPoll() {
 	try {
 		const response = await fetch('https://students.netoservices.ru/nestjs-backend/poll');
